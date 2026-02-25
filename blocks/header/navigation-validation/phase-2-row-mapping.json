@@ -1,0 +1,189 @@
+{
+  "rowMapping": {
+    "rows": [
+      {
+        "index": 0,
+        "description": "US Government official website banner with Veterans Crisis Line CTA",
+        "alignmentGroups": ["left-flag-text", "right-crisis-line"],
+        "spacing": "space-between",
+        "backgroundDifference": true,
+        "hasImages": true,
+        "hasHoverBehavior": true,
+        "hasClickBehavior": true,
+        "hasHamburgerIcon": false,
+        "hasSearchForm": false,
+        "hasLocaleSelector": false,
+        "elements": [
+          {
+            "id": "row-0-flag-icon",
+            "type": "image",
+            "label": "U.S. flag",
+            "position": "left",
+            "hoverBehavior": null,
+            "clickBehavior": null
+          },
+          {
+            "id": "row-0-official-text",
+            "type": "text",
+            "label": "An official website of the United States government",
+            "position": "left",
+            "hoverBehavior": null,
+            "clickBehavior": null
+          },
+          {
+            "id": "row-0-how-you-know",
+            "type": "button",
+            "label": "Here's how you know",
+            "position": "left",
+            "hoverBehavior": "underline on text",
+            "clickBehavior": "expands to show .gov and https security explanations with icons",
+            "expandable": true
+          },
+          {
+            "id": "row-0-crisis-line",
+            "type": "button",
+            "label": "Talk to the Veterans Crisis Line now",
+            "position": "right",
+            "hoverBehavior": "subtle highlight",
+            "clickBehavior": "opens modal dialog with crisis contact options (call 988, text 838255, chat, TTY). Modal has semi-transparent dark overlay backdrop.",
+            "hasIcon": true
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "description": "VA brand identity with utility links (Search, Contact us, Sign in)",
+        "alignmentGroups": ["left-logo", "right-utilities"],
+        "spacing": "space-between",
+        "backgroundDifference": true,
+        "hasImages": true,
+        "hasHoverBehavior": true,
+        "hasClickBehavior": true,
+        "hasHamburgerIcon": false,
+        "hasSearchForm": true,
+        "searchFormDetails": {
+          "formType": "expandable-icon",
+          "inputPlaceholder": "Search",
+          "hasSubmitButton": true,
+          "hasAutocomplete": false,
+          "position": "right-utilities"
+        },
+        "hasLocaleSelector": false,
+        "elements": [
+          {
+            "id": "row-1-logo",
+            "type": "link-image",
+            "label": "VA logo and Seal, U.S. Department of Veterans Affairs",
+            "position": "left",
+            "url": "https://www.va.gov",
+            "hoverBehavior": null,
+            "clickBehavior": "navigates to va.gov homepage"
+          },
+          {
+            "id": "row-1-search",
+            "type": "button-expandable",
+            "label": "Search",
+            "position": "right",
+            "hoverBehavior": "subtle border highlight around search area",
+            "clickBehavior": "expands dropdown with search text input and search submit button; chevron flips up when expanded",
+            "hasIcon": true
+          },
+          {
+            "id": "row-1-contact-us",
+            "type": "link",
+            "label": "Contact us",
+            "position": "right",
+            "url": "https://www.va.gov/contact-us/",
+            "hoverBehavior": "underline",
+            "clickBehavior": "navigates to /contact-us/"
+          },
+          {
+            "id": "row-1-sign-in",
+            "type": "link-button",
+            "label": "Sign in",
+            "position": "right",
+            "url": "https://www.va.gov/my-va",
+            "hoverBehavior": "subtle background change on blue button",
+            "clickBehavior": "navigates to /my-va sign in page",
+            "style": "blue-bg-white-text-button"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "description": "Main navigation bar with 2 dropdown menus and 3 direct links",
+        "alignmentGroups": ["left-nav-items", "right-nav-items"],
+        "spacing": "distributed with gap between left group and right group",
+        "backgroundDifference": true,
+        "hasImages": false,
+        "hasHoverBehavior": true,
+        "hasClickBehavior": true,
+        "hasHamburgerIcon": false,
+        "hasSearchForm": false,
+        "hasLocaleSelector": false,
+        "elements": [
+          {
+            "id": "row-2-benefits-health-care",
+            "type": "button-dropdown",
+            "label": "VA Benefits and Health Care",
+            "position": "left",
+            "hoverBehavior": "underline/bottom-border highlight on nav item",
+            "clickBehavior": "opens multi-level megamenu: left sidebar with 9 expandable categories (Health care, Disability, Education and training, Careers and employment, Pension, Housing assistance, Life insurance, Burials and memorials, Records) and 2 direct links (Service members, Family and caregivers). Clicking a category expands right panel with grouped links and promotional card.",
+            "hasChevron": true,
+            "megamenu": true
+          },
+          {
+            "id": "row-2-about-va",
+            "type": "button-dropdown",
+            "label": "About VA",
+            "position": "left",
+            "hoverBehavior": "underline/bottom-border highlight on nav item",
+            "clickBehavior": "opens full-width megamenu panel with 3 columns (VA organizations - 7 links, Innovation at VA - 7 links, Learn about VA - 6 links) and a right promotional card (Agency Financial Report with paper icon image)",
+            "hasChevron": true,
+            "megamenu": true
+          },
+          {
+            "id": "row-2-find-location",
+            "type": "link",
+            "label": "Find a VA Location",
+            "position": "left",
+            "url": "https://www.va.gov/find-locations/",
+            "hoverBehavior": "underline/bottom-border highlight",
+            "clickBehavior": "navigates to /find-locations/"
+          },
+          {
+            "id": "row-2-my-va",
+            "type": "link",
+            "label": "My VA",
+            "position": "right",
+            "url": "https://www.va.gov/my-va/",
+            "hoverBehavior": "underline/bottom-border highlight",
+            "clickBehavior": "navigates to /my-va/"
+          },
+          {
+            "id": "row-2-my-healthevet",
+            "type": "link",
+            "label": "My HealtheVet",
+            "position": "right",
+            "url": "https://www.va.gov/my-health/",
+            "hoverBehavior": "underline/bottom-border highlight",
+            "clickBehavior": "navigates to /my-health/"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "uncertainty": false,
+    "notes": [
+      "No hamburger icon is visible at desktop viewport (1440px) - appears only on mobile",
+      "No locale/language selector in the header - language assistance links (Español, Tagalog, Other languages) exist in the footer only",
+      "Search is in Row 1 as an expandable dropdown triggered by button click",
+      "Row 0 has split background: left area is light gray gov banner, right area is dark red/maroon crisis line banner",
+      "Row 1 has dark blue background (#162E51) with VA logo on left and utilities on right",
+      "Row 2 has lighter blue background with main navigation items",
+      "VA Benefits and Health Care has a unique 2-level megamenu: category sidebar on left + content panel on right",
+      "About VA has a simpler megamenu: direct 3-column layout + promotional card",
+      "Veterans Crisis Line opens a modal with semi-transparent overlay backdrop"
+    ]
+  }
+}

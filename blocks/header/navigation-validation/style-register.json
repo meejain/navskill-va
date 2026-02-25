@@ -1,0 +1,175 @@
+{
+  "allValidated": true,
+  "components": [
+    {
+      "id": "row-0-gov-banner",
+      "label": "Gov banner row (background, flag, text)",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-0-how-you-know",
+      "label": "Here's how you know expandable button",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-0-crisis-line",
+      "label": "Veterans Crisis Line banner/button",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-1-logo",
+      "label": "VA logo and Seal",
+      "status": "validated",
+      "lastSimilarity": 97,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-1-search",
+      "label": "Search expandable button",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-1-contact-us",
+      "label": "Contact us link",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-1-sign-in",
+      "label": "Sign in button",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-2-nav-bar",
+      "label": "Main navigation bar layout",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-2-benefits-trigger",
+      "label": "VA Benefits and Health Care nav trigger",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-2-about-trigger",
+      "label": "About VA nav trigger",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-2-find-location",
+      "label": "Find a VA Location link",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-2-my-va",
+      "label": "My VA link",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "row-2-my-healthevet",
+      "label": "My HealtheVet link",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "megamenu-benefits-sidebar",
+      "label": "Benefits megamenu sidebar (9 categories + 2 links)",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "megamenu-benefits-content-panel",
+      "label": "Benefits megamenu content panel (links + promo)",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "megamenu-about-columns",
+      "label": "About VA megamenu 3-column layout",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    },
+    {
+      "id": "megamenu-about-promo",
+      "label": "About VA megamenu promo card",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/critique/desktop/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-desktop-full.png"
+    }
+  ]
+}

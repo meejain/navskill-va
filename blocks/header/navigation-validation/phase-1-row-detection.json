@@ -1,0 +1,27 @@
+{
+  "rowDetection": {
+    "rowCount": 3,
+    "rows": [
+      {
+        "index": 0,
+        "description": "US Government official website banner with flag icon on left, 'Here's how you know' expandable, and red 'Veterans Crisis Line' banner on right"
+      },
+      {
+        "index": 1,
+        "description": "VA logo and seal with 'U.S. Department of Veterans Affairs' text on left; Search (with dropdown chevron), Contact us link, and Sign in button on right. Dark blue background."
+      },
+      {
+        "index": 2,
+        "description": "Main navigation bar: 'VA Benefits and Health Care' (dropdown), 'About VA' (dropdown), 'Find a VA Location' (link), 'My VA' (link), 'My HealtheVet' (link). Lighter blue background."
+      }
+    ],
+    "confidence": 0.95,
+    "uncertainty": false,
+    "notes": [
+      "Row 0 is the standard US government website banner with Veterans Crisis Line CTA on right side",
+      "Row 1 contains the VA brand identity and utility links (search, contact, sign in)",
+      "Row 2 contains the primary navigation with 2 dropdown menus and 3 direct links",
+      "There is also a sticky PACT Act banner at the bottom of the viewport but this is a separate page element, not part of the header"
+    ]
+  }
+}

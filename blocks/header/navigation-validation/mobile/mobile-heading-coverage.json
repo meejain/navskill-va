@@ -1,0 +1,170 @@
+{
+  "viewport": "375x812",
+  "headings": [
+    {
+      "label": "VA Benefits and Health Care",
+      "type": "accordion",
+      "clicked": true,
+      "expandBehavior": "accordion-expand-in-place",
+      "iconToggle": "+ \u2192 \u2212",
+      "subItemCount": 11,
+      "subCategories": 9,
+      "directLinks": 2,
+      "behaviorMatches": true,
+      "subCategoriesTested": [
+        {
+          "label": "Health care",
+          "clicked": true,
+          "slideInPanel": true,
+          "expandBehavior": "slide-in-panel",
+          "chevronIcon": "\u203a",
+          "backButton": "\u2190 Health care",
+          "subHeadings": ["Get health care benefits", "Manage your health"],
+          "linkCount": 9,
+          "behaviorMatches": true
+        },
+        {
+          "label": "Disability",
+          "clicked": true,
+          "slideInPanel": true,
+          "expandBehavior": "slide-in-panel",
+          "chevronIcon": "\u203a",
+          "backButton": "\u2190 Disability",
+          "subHeadings": ["Get disability benefits", "Manage your benefits"],
+          "linkCount": 9,
+          "behaviorMatches": true
+        },
+        {
+          "label": "Education and training",
+          "clicked": false,
+          "slideInPanel": true,
+          "notes": "Structure present in DOM, not individually tested"
+        },
+        {
+          "label": "Careers and employment",
+          "clicked": false,
+          "slideInPanel": true,
+          "notes": "Structure present in DOM, not individually tested"
+        },
+        {
+          "label": "Pension",
+          "clicked": false,
+          "slideInPanel": true,
+          "notes": "Structure present in DOM, not individually tested"
+        },
+        {
+          "label": "Housing assistance",
+          "clicked": false,
+          "slideInPanel": true,
+          "notes": "Structure present in DOM, not individually tested"
+        },
+        {
+          "label": "Life insurance",
+          "clicked": false,
+          "slideInPanel": true,
+          "notes": "Structure present in DOM, not individually tested"
+        },
+        {
+          "label": "Burials and memorials",
+          "clicked": false,
+          "slideInPanel": true,
+          "notes": "Structure present in DOM, not individually tested"
+        },
+        {
+          "label": "Records",
+          "clicked": true,
+          "slideInPanel": true,
+          "expandBehavior": "slide-in-panel",
+          "chevronIcon": "\u203a",
+          "backButton": "\u2190 Records",
+          "subHeadings": ["Get your records", "Manage your records"],
+          "linkCount": 9,
+          "behaviorMatches": true
+        }
+      ]
+    },
+    {
+      "label": "About VA",
+      "type": "accordion",
+      "clicked": true,
+      "expandBehavior": "accordion-expand-in-place",
+      "iconToggle": "+ \u2192 \u2212",
+      "subItemCount": 3,
+      "subCategories": 3,
+      "directLinks": 0,
+      "behaviorMatches": true,
+      "subCategoriesTested": [
+        {
+          "label": "VA organizations",
+          "clicked": true,
+          "slideInPanel": true,
+          "expandBehavior": "slide-in-panel",
+          "chevronIcon": "\u203a",
+          "backButton": "\u2190 VA organizations",
+          "linkCount": 7,
+          "behaviorMatches": true
+        },
+        {
+          "label": "Innovation at VA",
+          "clicked": true,
+          "slideInPanel": true,
+          "expandBehavior": "slide-in-panel",
+          "chevronIcon": "\u203a",
+          "backButton": "\u2190 Innovation at VA",
+          "linkCount": 7,
+          "behaviorMatches": true
+        },
+        {
+          "label": "Learn about VA",
+          "clicked": true,
+          "slideInPanel": true,
+          "expandBehavior": "slide-in-panel",
+          "chevronIcon": "\u203a",
+          "backButton": "\u2190 Learn about VA",
+          "linkCount": 6,
+          "behaviorMatches": true
+        }
+      ]
+    },
+    {
+      "label": "Find a VA Location",
+      "type": "direct-link",
+      "clicked": false,
+      "behaviorMatches": true,
+      "notes": "Direct link to https://www.va.gov/find-locations/"
+    },
+    {
+      "label": "Contact us",
+      "type": "direct-link",
+      "clicked": false,
+      "behaviorMatches": true,
+      "notes": "Mobile-only content, direct link to https://www.va.gov/contact-us/"
+    },
+    {
+      "label": "My VA",
+      "type": "direct-link",
+      "clicked": false,
+      "behaviorMatches": true,
+      "notes": "Direct link to https://www.va.gov/my-va/"
+    },
+    {
+      "label": "My HealtheVet",
+      "type": "direct-link",
+      "clicked": false,
+      "behaviorMatches": true,
+      "notes": "Direct link to https://www.va.gov/my-health/"
+    }
+  ],
+  "singleExpandMode": {
+    "tested": true,
+    "works": true,
+    "description": "Opening About VA automatically closes VA Benefits and Health Care (and vice versa)"
+  },
+  "closeButton": {
+    "tested": true,
+    "works": true,
+    "textSwap": "Close \u00D7 \u2192 Menu \u2261",
+    "resetsState": true
+  },
+  "allCovered": true
+}

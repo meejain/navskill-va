@@ -1,0 +1,97 @@
+{
+  "rows": [
+    {
+      "rowIndex": 0,
+      "elements": [
+        {
+          "id": "row-0-flag",
+          "label": "US flag icon",
+          "hoverBehavior": "none",
+          "clickBehavior": "none"
+        },
+        {
+          "id": "row-0-banner-text",
+          "label": "Official website text",
+          "hoverBehavior": "none",
+          "clickBehavior": "none"
+        },
+        {
+          "id": "row-0-banner-toggle",
+          "label": "Here's how you know toggle",
+          "hoverBehavior": "color change to darker blue",
+          "clickBehavior": "expands/collapses gov banner details section"
+        },
+        {
+          "id": "row-0-crisis-line",
+          "label": "Veterans Crisis Line button",
+          "hoverBehavior": "background color darkens",
+          "clickBehavior": "opens crisis line modal dialog"
+        }
+      ]
+    },
+    {
+      "rowIndex": 1,
+      "elements": [
+        {
+          "id": "row-1-logo",
+          "label": "VA logo",
+          "hoverBehavior": "none",
+          "clickBehavior": "navigates to https://www.va.gov"
+        },
+        {
+          "id": "row-1-search",
+          "label": "Search toggle",
+          "hoverBehavior": "text underline",
+          "clickBehavior": "opens/closes search dropdown form"
+        },
+        {
+          "id": "row-1-contact",
+          "label": "Contact us link",
+          "hoverBehavior": "text underline",
+          "clickBehavior": "navigates to https://www.va.gov/contact-us/"
+        },
+        {
+          "id": "row-1-sign-in",
+          "label": "Sign in button",
+          "hoverBehavior": "background color darkens to #1a4480",
+          "clickBehavior": "navigates to https://www.va.gov/my-va"
+        }
+      ]
+    },
+    {
+      "rowIndex": 2,
+      "elements": [
+        {
+          "id": "row-2-benefits-trigger",
+          "label": "VA Benefits and Health Care nav trigger",
+          "hoverBehavior": "background highlight on nav button",
+          "clickBehavior": "opens benefits megamenu panel"
+        },
+        {
+          "id": "row-2-about-trigger",
+          "label": "About VA nav trigger",
+          "hoverBehavior": "background highlight on nav button",
+          "clickBehavior": "opens about VA megamenu panel"
+        },
+        {
+          "id": "row-2-find-location",
+          "label": "Find a VA Location link",
+          "hoverBehavior": "background highlight",
+          "clickBehavior": "navigates to https://www.va.gov/find-locations/"
+        },
+        {
+          "id": "row-2-my-va",
+          "label": "My VA link",
+          "hoverBehavior": "background highlight",
+          "clickBehavior": "navigates to https://www.va.gov/my-va/"
+        },
+        {
+          "id": "row-2-my-healthevet",
+          "label": "My HealtheVet link",
+          "hoverBehavior": "background highlight",
+          "clickBehavior": "navigates to https://www.va.gov/my-health/"
+        }
+      ]
+    }
+  ]
+}

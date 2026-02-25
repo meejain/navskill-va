@@ -1,0 +1,55 @@
+{
+  "headerStructure": {
+    "rowCount": 3,
+    "rows": [
+      { "index": 0, "description": "US Government banner + Veterans Crisis Line CTA" },
+      { "index": 1, "description": "VA logo/brand + Search/Contact/Sign in utilities" },
+      { "index": 2, "description": "Main navigation (2 dropdowns + 3 links)" }
+    ]
+  },
+  "desktopMapping": {
+    "source": "phase-2-row-mapping.json",
+    "totalElements": 14,
+    "searchForm": true,
+    "localeSelector": false,
+    "hamburgerAtDesktop": false
+  },
+  "megamenuMapping": {
+    "source": "megamenu-mapping.json",
+    "totalItemsAnalyzed": 128,
+    "triggers": ["VA Benefits and Health Care", "About VA"],
+    "overlay": false
+  },
+  "mobileMapping": {
+    "source": "phase-4-mobile.json",
+    "breakpointPx": 768,
+    "menuTrigger": "hamburger-text-button",
+    "openBehavior": "slide-in-panel",
+    "hamburgerAnimation": "text-icon-swap (Menu/Close, no CSS morph)",
+    "accordionBehavior": "single-expand mode with + / \u2212 toggle",
+    "slideInPanelBehavior": "Sub-categories slide in from right with back button, 0.3s ease transition",
+    "searchForm": true,
+    "localeSelector": false,
+    "overlay": false,
+    "mobileOnlyContent": ["Contact us link"]
+  },
+  "validationReport": {
+    "structuralSimilarity": 96,
+    "structuralMismatches": [],
+    "styleSimilarity": 95,
+    "desktopRegisters": {
+      "schemaRegister": "allValidated",
+      "megamenuBehaviorRegister": "allValidated",
+      "rowElementsBehaviorRegister": "allValidated",
+      "headerAppearanceRegister": "allValidated",
+      "styleRegister": "allValidated (17 components, 95-97%)"
+    },
+    "mobileRegisters": {
+      "mobileSchemaRegister": "allValidated",
+      "mobileHeadingCoverage": "allCovered",
+      "mobileBehaviorRegister": "allValidated (14 items)",
+      "mobileStyleRegister": "allValidated (12 components, 95-96%)"
+    }
+  },
+  "status": "PASS"
+}

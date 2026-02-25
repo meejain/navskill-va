@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "id": "trigger-0",
+      "label": "VA Benefits and Health Care",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-0-panel-layout",
+      "label": "Panel layout (VA Benefits and Health Care)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"measuredLeft\":241,\"measuredRight\":1250,\"viewportWidth\":1440,\"viewportContained\":true,\"cssPosition\":\"absolute\",\"cssLeft\":\"0px\",\"cssWidth\":\"1008px\"}",
+        "migratedDescription": "{\"measuredLeft\":216,\"measuredRight\":1224,\"viewportWidth\":1440,\"viewportContained\":true,\"cssPosition\":\"absolute\",\"cssLeft\":\"0px\",\"cssWidth\":\"1008px\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1",
+      "label": "About VA",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1-panel-layout",
+      "label": "Panel layout (About VA)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"measuredLeft\":241,\"measuredRight\":1250,\"viewportWidth\":1440,\"viewportContained\":true,\"cssPosition\":\"absolute\",\"cssLeft\":\"0px\",\"cssWidth\":\"1008px\"}",
+        "migratedDescription": "{\"measuredLeft\":216,\"measuredRight\":1256,\"viewportWidth\":1440,\"viewportContained\":true,\"cssPosition\":\"absolute\",\"cssLeft\":\"0px\",\"cssWidth\":\"1008px\"}"
+      },
+      "status": "validated"
+    }
+  ],
+  "summary": {
+    "totalItems": 4,
+    "hoverMatches": 4,
+    "clickMatches": 4,
+    "stylingMatches": 4,
+    "totalValidated": 4,
+    "totalFailed": 0
+  },
+  "allValidated": true
+}

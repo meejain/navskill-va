@@ -1,0 +1,100 @@
+{
+  "megamenuAnalysis": {
+    "hasMegamenu": true,
+    "megamenuCount": 2,
+    "megamenus": [
+      {
+        "trigger": "VA Benefits and Health Care",
+        "triggerType": "click",
+        "structure": "two-level: left sidebar categories + right content panel",
+        "columnCount": 3,
+        "columns": [
+          { "columnIndex": 0, "label": "Category sidebar", "hasImages": false },
+          { "columnIndex": 1, "label": "Content column 1 (Get benefits)", "hasImages": false },
+          { "columnIndex": 2, "label": "Content column 2 (Manage benefits) + Promo card", "hasImages": true }
+        ],
+        "hasImages": true,
+        "hasHoverBehavior": true,
+        "hasClickBehavior": true,
+        "hasBlockStructure": true,
+        "nestedLevels": 2,
+        "animationType": "instant-show",
+        "hoverOutBehavior": "stays open until click outside or Escape",
+        "clickOutBehavior": "closes panel",
+        "overlayBehavior": {
+          "hasOverlay": false,
+          "overlayType": "none",
+          "overlayOpacity": "0",
+          "overlayDismisses": false
+        },
+        "promotionalBlocks": [
+          {
+            "type": "promo-card",
+            "location": "right side of content panel",
+            "hasImage": true,
+            "description": "Each category has its own promo card with icon image, title link, and description text"
+          }
+        ],
+        "gridStructure": "sidebar-left (225px) + content-panel-right (3-column: links-col-1, links-col-2, promo-card)",
+        "categoryCount": 9,
+        "directLinkCount": 2,
+        "categories": [
+          "Health care", "Disability", "Education and training", "Careers and employment",
+          "Pension", "Housing assistance", "Life insurance", "Burials and memorials", "Records"
+        ],
+        "directLinks": ["Service members", "Family and caregivers"],
+        "hasSearchForm": false,
+        "hasLocaleSelector": false
+      },
+      {
+        "trigger": "About VA",
+        "triggerType": "click",
+        "structure": "single-level: 3 content columns + promo card",
+        "columnCount": 4,
+        "columns": [
+          { "columnIndex": 0, "label": "VA organizations", "hasImages": false },
+          { "columnIndex": 1, "label": "Innovation at VA", "hasImages": false },
+          { "columnIndex": 2, "label": "Learn about VA", "hasImages": false },
+          { "columnIndex": 3, "label": "Promo card (Agency Financial Report)", "hasImages": true }
+        ],
+        "hasImages": true,
+        "hasHoverBehavior": true,
+        "hasClickBehavior": true,
+        "hasBlockStructure": false,
+        "nestedLevels": 1,
+        "animationType": "instant-show",
+        "hoverOutBehavior": "stays open until click outside or Escape",
+        "clickOutBehavior": "closes panel",
+        "overlayBehavior": {
+          "hasOverlay": false,
+          "overlayType": "none",
+          "overlayOpacity": "0",
+          "overlayDismisses": false
+        },
+        "promotionalBlocks": [
+          {
+            "type": "promo-card",
+            "location": "right side of panel",
+            "hasImage": true,
+            "imageUrl": "https://www.va.gov/img/styles/3_2_medium_thumbnail/public/2023-11/disability%20icon.png",
+            "description": "Agency Financial Report promo with paper icon image"
+          }
+        ],
+        "gridStructure": "3-equal-columns + promo-card-right",
+        "hasSearchForm": false,
+        "hasLocaleSelector": false
+      }
+    ],
+    "confidence": 0.95,
+    "uncertainty": false,
+    "notes": [
+      "VA Benefits and Health Care is a 2-level megamenu: clicking the trigger opens a left sidebar with 9 category buttons + 2 direct links; clicking a category opens a right content panel with 2 link columns and a promo card with image",
+      "About VA is a 1-level megamenu: clicking the trigger opens a full-width panel with 3 columns of links and a promo card",
+      "Neither megamenu has a background overlay/backdrop - panels appear directly",
+      "Both megamenus trigger on click only (not hover)",
+      "Each Benefits category has its own promo card with a unique icon image (480x320px)",
+      "About VA has a single promo card with paper icon for Agency Financial Report",
+      "Panel positioned absolutely, contained within viewport at 1440px"
+    ]
+  }
+}
