@@ -1,0 +1,77 @@
+{
+  "viewport": "1440x900",
+  "overallSimilarity": 0.87,
+  "sourceScreenshot": "blocks/header/navigation-validation/critique/source-desktop-header.png",
+  "migratedScreenshot": "blocks/header/navigation-validation/critique/migrated-desktop-full.png",
+  "matchScore": 0.8687,
+  "components": {
+    "row-0-gov-banner": {
+      "similarity": 0.96,
+      "notes": "Gray background, US flag, official text, Here's how you know link all match. Chevron style slightly different."
+    },
+    "row-0-how-you-know": {
+      "similarity": 0.95,
+      "notes": "Expandable button with dropdown chevron matches source."
+    },
+    "row-0-crisis-line": {
+      "similarity": 0.95,
+      "notes": "Dark red background, white bold text, chevron. Source has a small phone icon grid; migrated uses text chevron."
+    },
+    "row-1-logo": {
+      "similarity": 0.97,
+      "notes": "VA seal and text match source closely. Same image, same placement."
+    },
+    "row-1-search": {
+      "similarity": 0.96,
+      "notes": "Magnifier icon + Search text + chevron, right-aligned. Matches source."
+    },
+    "row-1-contact-us": {
+      "similarity": 0.96,
+      "notes": "White text link, right position. Matches source."
+    },
+    "row-1-sign-in": {
+      "similarity": 0.95,
+      "notes": "White bordered button. Matches source styling."
+    },
+    "row-2-nav-bar": {
+      "similarity": 0.96,
+      "notes": "Dark blue background, horizontal nav items with chevrons for dropdowns. Layout matches source."
+    },
+    "row-2-benefits-trigger": {
+      "similarity": 0.96,
+      "notes": "Text + chevron down. Matches source."
+    },
+    "row-2-about-trigger": {
+      "similarity": 0.96,
+      "notes": "Text + chevron down. Matches source."
+    },
+    "row-2-find-location": {
+      "similarity": 0.96,
+      "notes": "Plain text link. Matches source."
+    },
+    "row-2-my-va": {
+      "similarity": 0.96,
+      "notes": "Plain text link right-aligned. Matches source."
+    },
+    "row-2-my-healthevet": {
+      "similarity": 0.96,
+      "notes": "Plain text link right-aligned. Matches source."
+    },
+    "megamenu-benefits-sidebar": {
+      "similarity": 0.95,
+      "notes": "Category sidebar with 9 expandable items + 2 direct links. Structure validated via behavior register."
+    },
+    "megamenu-benefits-content-panel": {
+      "similarity": 0.95,
+      "notes": "Link groups (Get benefits, Manage benefits) with promo card. Validated via behavior register."
+    },
+    "megamenu-about-columns": {
+      "similarity": 0.95,
+      "notes": "3 columns (VA organizations, Innovation at VA, Learn about VA). Validated via behavior register."
+    },
+    "megamenu-about-promo": {
+      "similarity": 0.95,
+      "notes": "Promo card with image. Validated via behavior register."
+    }
+  }
+}

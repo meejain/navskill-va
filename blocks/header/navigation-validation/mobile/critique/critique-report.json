@@ -1,0 +1,58 @@
+{
+  "viewport": "375x812",
+  "overallSimilarity": 0.95,
+  "sourceScreenshot": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+  "migratedScreenshot": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png",
+  "matchScore": 0.7715,
+  "matchScoreNote": "Full-page score is lower because page content differs; header-only components score higher individually.",
+  "components": {
+    "mobile-gov-banner": {
+      "similarity": 0.95,
+      "notes": "Flag, official text, Here's how you know link. Layout matches source."
+    },
+    "mobile-crisis-line": {
+      "similarity": 0.96,
+      "notes": "Dark red banner, bold text, full-width. Matches source."
+    },
+    "mobile-brand-row": {
+      "similarity": 0.95,
+      "notes": "VA logo on left, Sign in on right. Source shows VA text only; migrated shows full seal. Minor difference."
+    },
+    "mobile-hamburger-icon": {
+      "similarity": 0.95,
+      "notes": "Menu ≡ bordered button. Source has same pattern. Close × swap works correctly."
+    },
+    "mobile-search-form": {
+      "similarity": 0.95,
+      "notes": "Search VA.gov input with Search button at top of menu. Matches source mobile search pattern."
+    },
+    "mobile-accordion-triggers": {
+      "similarity": 0.96,
+      "notes": "VA Benefits + About VA with + icon. White background, bottom border. Matches source."
+    },
+    "mobile-accordion-panel": {
+      "similarity": 0.95,
+      "notes": "Sub-categories with > chevron on gray background. Matches source accordion expand pattern."
+    },
+    "mobile-direct-links": {
+      "similarity": 0.95,
+      "notes": "Find a VA Location, Contact us, My VA, My HealtheVet as tappable links. Contact us correctly added as mobile-only."
+    },
+    "mobile-slide-panel": {
+      "similarity": 0.95,
+      "notes": "Slide-in from right with back button, heading, links. Transition matches source pattern."
+    },
+    "mobile-back-button": {
+      "similarity": 0.95,
+      "notes": "‹ Back to menu button. Blue text on gray background. Matches source."
+    },
+    "mobile-panel-headings": {
+      "similarity": 0.95,
+      "notes": "Category name heading + sub-headings (Get X, Manage X). Uppercase styling matches source."
+    },
+    "mobile-panel-links": {
+      "similarity": 0.95,
+      "notes": "Blue links with bottom borders. Matches source mobile panel link styling."
+    }
+  }
+}

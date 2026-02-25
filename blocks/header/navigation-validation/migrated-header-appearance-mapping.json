@@ -1,0 +1,32 @@
+{
+  "hasChanges": false,
+  "triggers": [],
+  "defaultAppearance": {
+    "headerContainer": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "boxShadow": "none",
+      "borderBottom": "0px none rgb(19, 19, 19)"
+    },
+    "navRow": {
+      "backgroundColor": "rgb(22, 46, 81)",
+      "boxShadow": "none",
+      "borderBottom": "0px none rgb(255, 255, 255)",
+      "borderTop": "1px solid rgba(255, 255, 255, 0.2)"
+    },
+    "govBanner": {
+      "backgroundColor": "rgb(240, 240, 240)",
+      "boxShadow": "none",
+      "borderBottom": "0px none rgb(27, 27, 27)"
+    }
+  },
+  "onInteractionAppearance": {
+    "hoverNavItem": {
+      "headerChanges": false,
+      "description": "Header bar unchanged on nav item hover"
+    },
+    "megamenuOpen": {
+      "headerChanges": false,
+      "description": "Header bar unchanged when megamenu panel is open; no overlay/backdrop"
+    }
+  }
+}

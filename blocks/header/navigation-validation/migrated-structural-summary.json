@@ -1,0 +1,56 @@
+{
+  "rowCount": 3,
+  "rows": [
+    {
+      "index": 0,
+      "hasImages": true,
+      "description": "Gov banner row with US flag icon"
+    },
+    {
+      "index": 1,
+      "hasImages": true,
+      "description": "Brand/utility row with VA logo, search icon, contact link, sign in"
+    },
+    {
+      "index": 2,
+      "hasImages": false,
+      "description": "Main navigation row with Benefits trigger, About VA trigger, Find a VA Location, My VA, My HealtheVet"
+    }
+  ],
+  "megamenu": {
+    "columnCount": 2,
+    "hasImages": true,
+    "columns": [
+      {
+        "columnIndex": 0,
+        "hasImages": false,
+        "label": "Benefits sidebar categories (9 categories + 2 direct links)"
+      },
+      {
+        "columnIndex": 1,
+        "hasImages": true,
+        "label": "Benefits content area with promo images per category"
+      },
+      {
+        "columnIndex": 2,
+        "hasImages": false,
+        "label": "About VA column 0"
+      },
+      {
+        "columnIndex": 3,
+        "hasImages": false,
+        "label": "About VA column 1"
+      },
+      {
+        "columnIndex": 4,
+        "hasImages": false,
+        "label": "About VA column 2"
+      },
+      {
+        "columnIndex": 5,
+        "hasImages": true,
+        "label": "About VA promo image (annual report)"
+      }
+    ]
+  }
+}

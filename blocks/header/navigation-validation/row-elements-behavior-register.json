@@ -1,0 +1,220 @@
+{
+  "items": [
+    {
+      "id": "row-0-flag",
+      "label": "US flag icon",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-0-banner-text",
+      "label": "Official website text",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-0-banner-toggle",
+      "label": "Here's how you know toggle",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-0-crisis-line",
+      "label": "Veterans Crisis Line button",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-1-logo",
+      "label": "VA logo",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-1-search",
+      "label": "Search toggle",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-1-contact",
+      "label": "Contact us link",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-1-sign-in",
+      "label": "Sign in button",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-2-benefits-trigger",
+      "label": "VA Benefits and Health Care nav trigger",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-2-about-trigger",
+      "label": "About VA nav trigger",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-2-find-location",
+      "label": "Find a VA Location link",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-2-my-va",
+      "label": "My VA link",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-2-my-healthevet",
+      "label": "My HealtheVet link",
+      "type": "other",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "status": "validated"
+    }
+  ],
+  "summary": {
+    "totalItems": 13,
+    "hoverMatches": 13,
+    "clickMatches": 13,
+    "totalValidated": 13,
+    "totalFailed": 0
+  },
+  "allValidated": true
+}

@@ -1,0 +1,283 @@
+{
+  "allValidated": true,
+  "items": [
+    {
+      "id": "mobile-hamburger",
+      "label": "Hamburger icon (Menu/Close text swap)",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap toggles mobile menu open/closed",
+        "migratedAction": "Tap toggles mobile menu open/closed"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "text-icon-swap: Menu \u2261 \u2192 Close \u00D7",
+        "migratedPattern": "text-icon-swap: Menu \u2261 \u2192 Close \u00D7"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "instant (no animation)",
+        "migratedSpeed": "instant (no animation)",
+        "notes": "Text content swap, not CSS morph \u2014 matches source"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-search-form",
+      "label": "Mobile search form",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Search form visible at top when menu opens",
+        "migratedAction": "Search form visible at top when menu opens"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "inline-input with Search button at top of menu",
+        "migratedPattern": "inline-input with Search button at top of menu"
+      },
+      "animationMatch": {
+        "matches": true,
+        "notes": "No animation \u2014 appears with menu"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-accordion-benefits",
+      "label": "VA Benefits and Health Care accordion",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap expands accordion showing 9 sub-categories + 2 direct links",
+        "migratedAction": "Tap expands accordion showing 9 sub-categories + 2 direct links"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "single-expand mode, + \u2192 \u2212 toggle, sub-categories show \u203a chevron",
+        "migratedPattern": "single-expand mode, + \u2192 \u2212 toggle, sub-categories show \u203a chevron"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "instant",
+        "migratedSpeed": "instant",
+        "notes": "Accordion expands instantly, no transition animation \u2014 matches source"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-accordion-about",
+      "label": "About VA accordion",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap expands accordion showing 3 sub-categories",
+        "migratedAction": "Tap expands accordion showing 3 sub-categories"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "single-expand mode, + \u2192 \u2212 toggle, closes Benefits when opened, sub-categories show \u203a chevron",
+        "migratedPattern": "single-expand mode, + \u2192 \u2212 toggle, closes Benefits when opened, sub-categories show \u203a chevron"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "instant",
+        "migratedSpeed": "instant"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-slide-panel-health-care",
+      "label": "Health care slide-in panel",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap Health care slides main menu left, sub-panel slides in from right",
+        "migratedAction": "Tap Health care slides main menu left, sub-panel slides in from right"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Slide-in panel with back button (\u2190 Health care), heading, view-all link, 2 sub-headings (Get/Manage), link lists",
+        "migratedPattern": "Slide-in panel with back button (\u2190 Health care), heading, view-all link, 2 sub-headings (Get/Manage), link lists"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "0.3s ease",
+        "migratedSpeed": "0.3s ease",
+        "notes": "CSS transform: translateX() with 0.3s ease transition"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-slide-panel-disability",
+      "label": "Disability slide-in panel",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap Disability slides main menu left, sub-panel slides in from right",
+        "migratedAction": "Tap Disability slides main menu left, sub-panel slides in from right"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Slide-in panel with back button, heading, view-all link, 2 sub-headings, link lists",
+        "migratedPattern": "Slide-in panel with back button, heading, view-all link, 2 sub-headings, link lists"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "0.3s ease",
+        "migratedSpeed": "0.3s ease"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-slide-panel-records",
+      "label": "Records slide-in panel",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap Records slides main menu left, sub-panel slides in from right",
+        "migratedAction": "Tap Records slides main menu left, sub-panel slides in from right"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Slide-in panel with back button, heading, view-all link, 2 sub-headings (Get/Manage), link lists",
+        "migratedPattern": "Slide-in panel with back button, heading, view-all link, 2 sub-headings (Get/Manage), link lists"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "0.3s ease",
+        "migratedSpeed": "0.3s ease"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-slide-panel-va-organizations",
+      "label": "VA organizations slide-in panel",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap VA organizations slides main menu left, sub-panel slides in from right",
+        "migratedAction": "Tap VA organizations slides main menu left, sub-panel slides in from right"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Slide-in panel with back button, heading, flat link list (7 links)",
+        "migratedPattern": "Slide-in panel with back button, heading, flat link list (7 links)"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "0.3s ease",
+        "migratedSpeed": "0.3s ease"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-slide-panel-innovation",
+      "label": "Innovation at VA slide-in panel",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap Innovation at VA slides main menu left, sub-panel slides in from right",
+        "migratedAction": "Tap Innovation at VA slides main menu left, sub-panel slides in from right"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Slide-in panel with back button, heading, flat link list (7 links)",
+        "migratedPattern": "Slide-in panel with back button, heading, flat link list (7 links)"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "0.3s ease",
+        "migratedSpeed": "0.3s ease"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-slide-panel-learn-about-va",
+      "label": "Learn about VA slide-in panel",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap Learn about VA slides main menu left, sub-panel slides in from right",
+        "migratedAction": "Tap Learn about VA slides main menu left, sub-panel slides in from right"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Slide-in panel with back button, heading, flat link list (6 links)",
+        "migratedPattern": "Slide-in panel with back button, heading, flat link list (6 links)"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "0.3s ease",
+        "migratedSpeed": "0.3s ease"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-back-button",
+      "label": "Back button in slide-in panels",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap \u2190 [Category] reverses slide animation, returns to main menu",
+        "migratedAction": "Tap \u2190 [Category] reverses slide animation, returns to main menu"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Sub-panel slides out right, main menu slides back in from left",
+        "migratedPattern": "Sub-panel slides out right, main menu slides back in from left"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "0.3s ease",
+        "migratedSpeed": "0.3s ease",
+        "notes": "Reverse of slide-in transition using CSS transform: translateX()"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-close-button",
+      "label": "Close navigation button",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Tap Close \u00D7 closes entire mobile menu",
+        "migratedAction": "Tap Close \u00D7 closes entire mobile menu"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Closes menu, resets all state (slide panels + accordions), reverts to Menu \u2261",
+        "migratedPattern": "Closes menu, resets all state (slide panels + accordions), reverts to Menu \u2261"
+      },
+      "animationMatch": {
+        "matches": true,
+        "sourceSpeed": "instant",
+        "migratedSpeed": "instant"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-direct-links",
+      "label": "Direct navigation links",
+      "tapMatch": {
+        "matches": true,
+        "sourceAction": "Find a VA Location, Contact us, My VA, My HealtheVet are tappable links",
+        "migratedAction": "Find a VA Location, Contact us, My VA, My HealtheVet are tappable links"
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "Direct links navigate to target URLs",
+        "migratedPattern": "Direct links navigate to target URLs"
+      },
+      "animationMatch": {
+        "matches": true,
+        "notes": "No animation \u2014 standard link behavior"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-overlay",
+      "label": "Mobile overlay behavior",
+      "tapMatch": {
+        "matches": true
+      },
+      "behaviorMatch": {
+        "matches": true,
+        "sourcePattern": "No overlay, content pushes down",
+        "migratedPattern": "No overlay, content pushes down"
+      },
+      "animationMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    }
+  ]
+}

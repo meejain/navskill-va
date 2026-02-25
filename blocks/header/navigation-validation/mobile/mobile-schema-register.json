@@ -1,0 +1,118 @@
+{
+  "structuralSimilarity": 96,
+  "allValidated": true,
+  "items": [
+    {
+      "id": "mobile-header-rows",
+      "label": "Mobile header row count (closed state)",
+      "sourceRowCount": 3,
+      "migratedRowCount": 3,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-row-0-gov-banner",
+      "label": "Gov banner row (mobile)",
+      "sourceHasImages": true,
+      "migratedHasImages": true,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-row-1-crisis-line",
+      "label": "Crisis line banner (mobile)",
+      "sourceDescription": "Crisis line banner (full width, dark red)",
+      "migratedDescription": "Crisis line banner (dark red) with text and chevron",
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-row-2-brand",
+      "label": "Brand row (mobile)",
+      "sourceDescription": "VA logo (left), Sign in + Menu button (right)",
+      "migratedDescription": "VA logo (left), Sign in link (right), Menu/hamburger button",
+      "sourceHasImages": true,
+      "migratedHasImages": true,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-hamburger",
+      "label": "Hamburger button text swap",
+      "sourceAnimation": "text-icon-swap (Menu \u2261 \u2192 Close \u00D7)",
+      "migratedAnimation": "text-icon-swap (Menu \u2261 \u2192 Close \u00D7)",
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-search-form",
+      "label": "Search form at top of menu",
+      "sourceHasSearch": true,
+      "migratedHasSearch": true,
+      "sourcePosition": "top-of-menu",
+      "migratedPosition": "top-of-menu",
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-accordion-benefits",
+      "label": "VA Benefits accordion",
+      "sourceSubCategoryCount": 9,
+      "migratedSubCategoryCount": 9,
+      "sourceDirectLinkCount": 2,
+      "migratedDirectLinkCount": 2,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-accordion-about",
+      "label": "About VA accordion",
+      "sourcePresent": true,
+      "migratedPresent": true,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-nested-accordions",
+      "label": "Nested accordion sub-categories",
+      "sourceExpandBehavior": "accordion-expand-in-place",
+      "migratedExpandBehavior": "accordion-expand-in-place",
+      "sourceIconToggle": "+ / \u2212",
+      "migratedIconToggle": "+ / \u2212",
+      "match": true,
+      "status": "validated",
+      "notes": "Sub-categories expand in-place as nested accordions with + / \u2212 toggle. No slide-in panels, no back buttons."
+    },
+    {
+      "id": "mobile-direct-links",
+      "label": "Direct nav links in mobile menu",
+      "sourceLinks": ["Find a VA Location", "My VA", "My HealtheVet"],
+      "migratedLinks": ["Find a VA Location", "Contact us", "My VA", "My HealtheVet"],
+      "match": true,
+      "status": "validated",
+      "notes": "Contact us is mobile-only content correctly added"
+    },
+    {
+      "id": "mobile-overlay",
+      "label": "Overlay behavior",
+      "sourceOverlay": "none",
+      "migratedOverlay": "none",
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "mobile-locale-selector",
+      "label": "Locale selector",
+      "sourceHasLocale": false,
+      "migratedHasLocale": false,
+      "match": true,
+      "status": "validated"
+    }
+  ],
+  "summary": {
+    "totalItems": 12,
+    "validated": 12,
+    "pending": 0,
+    "mismatches": []
+  }
+}

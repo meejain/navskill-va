@@ -1,0 +1,125 @@
+{
+  "allValidated": true,
+  "components": [
+    {
+      "id": "mobile-gov-banner",
+      "label": "Gov banner (mobile layout)",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-crisis-line",
+      "label": "Crisis line banner (mobile layout)",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-brand-row",
+      "label": "Brand row (logo + sign in + hamburger)",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-hamburger-icon",
+      "label": "Menu/Close text button styling",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-search-form",
+      "label": "Mobile search form at top of menu",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-accordion-triggers",
+      "label": "Accordion trigger buttons (Benefits + About VA)",
+      "status": "validated",
+      "lastSimilarity": 96,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-accordion-panel",
+      "label": "Accordion expanded panel (sub-category buttons)",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-direct-links",
+      "label": "Direct nav links (Find Location, Contact us, My VA, My HealtheVet)",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-slide-panel",
+      "label": "Slide-in sub-panel layout",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-back-button",
+      "label": "Back to menu button in slide panel",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-panel-headings",
+      "label": "Slide panel headings and sub-headings",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    },
+    {
+      "id": "mobile-panel-links",
+      "label": "Slide panel link list styling",
+      "status": "validated",
+      "lastSimilarity": 95,
+      "critiqueIterations": 1,
+      "critiqueReportPath": "blocks/header/navigation-validation/mobile/critique/critique-report.json",
+      "screenshotSourcePath": "blocks/header/navigation-validation/critique/source-mobile-closed.png",
+      "screenshotMigratedPath": "blocks/header/navigation-validation/critique/migrated-mobile-closed.png"
+    }
+  ]
+}

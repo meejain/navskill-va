@@ -1,0 +1,95 @@
+{
+  "viewport": "375x812",
+  "closedState": {
+    "rowCount": 3,
+    "rows": [
+      {
+        "index": 0,
+        "hasImages": true,
+        "description": "Gov banner row with US flag icon, official website text, expandable button"
+      },
+      {
+        "index": 1,
+        "hasImages": false,
+        "description": "Crisis line banner (dark red) with text and chevron"
+      },
+      {
+        "index": 2,
+        "hasImages": true,
+        "description": "Brand row: VA logo (left), Sign in link (right), Menu/hamburger button below"
+      }
+    ]
+  },
+  "openState": {
+    "hamburgerButton": {
+      "closedLabel": "Menu \u2261",
+      "openLabel": "Close \u00d7",
+      "animationType": "text-icon-swap",
+      "present": true
+    },
+    "searchForm": {
+      "present": true,
+      "position": "top-of-menu",
+      "formType": "inline-input",
+      "placeholder": "Search VA.gov",
+      "hasSubmitButton": true
+    },
+    "accordionItems": [
+      {
+        "label": "VA Benefits and Health Care",
+        "expandIcon": "+",
+        "collapseIcon": "\u2212",
+        "subCategories": [
+          "Health care",
+          "Disability",
+          "Education and training",
+          "Careers and employment",
+          "Pension",
+          "Housing assistance",
+          "Life insurance",
+          "Burials and memorials",
+          "Records"
+        ],
+        "directLinks": [
+          "Service members",
+          "Family and caregivers"
+        ],
+        "subCategoryCount": 9,
+        "directLinkCount": 2,
+        "subCategoryBehavior": "slide-in-panel",
+        "subCategoryChevronIcon": "\u203a",
+        "description": "Sub-categories show \u203a chevron. Tapping one slides main menu left and opens a sub-panel from the right with back button, heading, sub-headings, and link lists."
+      },
+      {
+        "label": "About VA",
+        "expandIcon": "+",
+        "collapseIcon": "\u2212",
+        "subCategories": [
+          "VA organizations",
+          "Innovation at VA",
+          "Learn about VA"
+        ],
+        "directLinks": [],
+        "subCategoryBehavior": "slide-in-panel",
+        "subCategoryChevronIcon": "\u203a",
+        "description": "Sub-categories show \u203a chevron. Tapping one slides main menu left and opens a sub-panel from the right with back button, heading, and link lists."
+      }
+    ],
+    "directNavLinks": [
+      "Find a VA Location",
+      "Contact us",
+      "My VA",
+      "My HealtheVet"
+    ],
+    "mobileOnlyContent": [
+      {
+        "item": "Contact us",
+        "location": "mobile menu after Find a VA Location"
+      }
+    ],
+    "overlayBehavior": {
+      "hasOverlay": false,
+      "description": "No overlay. Content pushes down."
+    }
+  }
+}

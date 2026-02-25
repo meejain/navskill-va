@@ -1,0 +1,95 @@
+{
+  "hasSearchForm": true,
+  "hasLocaleSelector": false,
+  "hamburgerAnimation": {
+    "type": "text-icon-swap",
+    "method": "class-toggle",
+    "description": "Menu text + hamburger icon swaps to Close text + \u00d7 icon. Not a CSS transform morph.",
+    "transition": "none (instant swap)"
+  },
+  "accordionBehavior": {
+    "expandMode": "single",
+    "chevronAnimation": "+ becomes \u2212 on expand",
+    "expandTiming": "instant",
+    "description": "Top-level items (VA Benefits, About VA) expand in-place as accordion with + / \u2212 toggle. Sub-categories show \u203a chevron and trigger slide-in panels."
+  },
+  "slideInPanelBehavior": {
+    "direction": "left-to-right",
+    "hasBackButton": true,
+    "backButtonLabel": "\u2190 [Category Name]",
+    "transitionType": "css-transform-translateX",
+    "transitionDuration": "0.3s ease",
+    "description": "Tapping a sub-category slides the main menu left and a sub-panel slides in from the right. Back button reverses the animation."
+  },
+  "overlayBehavior": {
+    "hasOverlay": false,
+    "description": "No background overlay when menu is open. Content pushes down."
+  },
+  "mobileAnalysis": {
+    "breakpointPx": 768,
+    "menuTrigger": "hamburger-text-button",
+    "menuTriggerLabel": "Menu \u2261 \u2192 Close \u00d7",
+    "openBehavior": "slide-in-panel",
+    "tapVsHover": "tap-only",
+    "nestedBehavior": "slide-in-panel with back button",
+    "hasMegamenuOnMobile": false,
+    "hamburgerAnimation": {
+      "type": "text-icon-swap",
+      "method": "class-toggle",
+      "description": "Menu text + hamburger icon swaps to Close text + \u00d7 icon. Not a CSS transform morph.",
+      "transition": "none (instant swap)"
+    },
+    "mobileMenuLayout": "slide-in-subpanel",
+    "accordionBehavior": {
+      "expandMode": "single",
+      "chevronAnimation": "+ becomes \u2212 on expand",
+      "expandTiming": "instant",
+      "description": "Top-level items (VA Benefits, About VA) expand in-place as accordion with + / \u2212 toggle."
+    },
+    "slideInPanelBehavior": {
+      "direction": "left-to-right",
+      "hasBackButton": true,
+      "backButtonLabel": "\u2190 [Category Name]",
+      "transitionType": "css-transform-translateX",
+      "transitionDuration": "0.3s ease",
+      "description": "Sub-categories (Health care, Disability, Records, etc.) trigger slide-in panels from the right. Main menu slides out left. Back button reverses animation."
+    },
+    "hasSearchForm": true,
+    "searchFormDetails": {
+      "formType": "inline-input",
+      "visibleInClosedState": false,
+      "position": "top-of-menu",
+      "description": "Search input with submit button appears at top of opened menu"
+    },
+    "hasLocaleSelector": false,
+    "mobileOnlyContent": [
+      {
+        "item": "Contact us link",
+        "location": "bottom of mobile nav menu list",
+        "description": "Contact us appears as a nav item in mobile menu but not in desktop row 2 main nav"
+      }
+    ],
+    "overlayBehavior": {
+      "hasOverlay": false,
+      "description": "No background overlay when menu is open. Content pushes down."
+    },
+    "headerStructure": {
+      "row0": "Gov banner (condensed - flag + official text as expandable button)",
+      "row1": "Crisis line banner (full width, dark red)",
+      "row2": "Brand row: VA logo (left), Sign in + Menu button (right)"
+    },
+    "confidence": 0.95,
+    "uncertainty": false,
+    "notes": [
+      "Mobile header collapses to 3 visible rows: gov banner, crisis line, brand+menu",
+      "Desktop nav row 2 items are hidden and moved into hamburger menu",
+      "Menu button shows 'Menu \u2261' when closed and 'Close \u00d7' when open - text swap not morph",
+      "Top level: accordion (Benefits +/\u2212, About VA +/\u2212)",
+      "Second level: slide-in panels (Health care \u203a, Disability \u203a, Records \u203a, etc.) \u2014 slides from right with back button",
+      "Back button (\u2190 Category) reverses slide animation to return to main menu",
+      "Slide-in transition: 0.3s ease using CSS transform: translateX()",
+      "Search bar visible at top of menu when opened",
+      "Contact us appears in mobile menu but not in desktop main nav row"
+    ]
+  }
+}

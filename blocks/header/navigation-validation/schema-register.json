@@ -1,0 +1,70 @@
+{
+  "structuralSimilarity": 97,
+  "allValidated": true,
+  "items": [
+    {
+      "id": "row-0",
+      "label": "Gov Banner Row",
+      "sourceRowCount": 3,
+      "migratedRowCount": 3,
+      "sourceHasImages": true,
+      "migratedHasImages": true,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "row-1",
+      "label": "Brand/Utility Row",
+      "sourceHasImages": true,
+      "migratedHasImages": true,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "row-2",
+      "label": "Main Navigation Row",
+      "sourceHasImages": false,
+      "migratedHasImages": false,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "megamenu-benefits",
+      "label": "VA Benefits and Health Care megamenu",
+      "sourceStructure": "sidebar + content panel (2 link columns + promo card with images)",
+      "migratedStructure": "sidebar (11 items) + content panel (link groups + promo image per category)",
+      "sourceHasImages": true,
+      "migratedHasImages": true,
+      "sourceCategories": 9,
+      "migratedCategories": 9,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "megamenu-about",
+      "label": "About VA megamenu",
+      "sourceStructure": "3 link columns + promo card",
+      "migratedStructure": "3 link columns + promo image",
+      "sourceHasImages": true,
+      "migratedHasImages": true,
+      "sourceColumns": 4,
+      "migratedColumns": 4,
+      "match": true,
+      "status": "validated"
+    },
+    {
+      "id": "megamenu-overlay",
+      "label": "Megamenu overlay behavior",
+      "sourceOverlay": "none",
+      "migratedOverlay": "none",
+      "match": true,
+      "status": "validated"
+    }
+  ],
+  "summary": {
+    "totalItems": 6,
+    "validated": 6,
+    "pending": 0,
+    "mismatches": []
+  }
+}

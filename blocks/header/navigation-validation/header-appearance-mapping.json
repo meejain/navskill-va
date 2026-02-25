@@ -1,0 +1,27 @@
+{
+  "hasChanges": false,
+  "triggers": [],
+  "defaultAppearance": {
+    "headerContainer": {
+      "backgroundColor": "rgb(22, 46, 81)",
+      "boxShadow": "none",
+      "borderBottom": "0px none rgb(1, 12, 41)"
+    },
+    "navRow": {
+      "backgroundColor": "rgb(22, 46, 81)",
+      "boxShadow": "none",
+      "borderBottom": "0px none rgb(0, 94, 162)",
+      "borderTop": "0px none rgb(0, 94, 162)"
+    }
+  },
+  "onInteractionAppearance": {
+    "hoverNavItem": {
+      "headerChanges": false,
+      "description": "Header bar unchanged on nav item hover; only button text gets underline and color change"
+    },
+    "megamenuOpen": {
+      "headerChanges": false,
+      "description": "Header bar unchanged when megamenu panel is open; no overlay/backdrop added for megamenu"
+    }
+  }
+}
